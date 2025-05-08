@@ -5,7 +5,7 @@ autopep8
 # App
 flask
 
-tensorflow==2.15.0
+tensorflow==2.17.1
 numpy==1.24.4
 Pillow==10.2.0
 Werkzeug==2.3.8
