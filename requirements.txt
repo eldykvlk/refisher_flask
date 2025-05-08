@@ -6,6 +6,6 @@ autopep8
 flask
 
 tensorflow==2.17.1
-numpy==1.24.4
+numpy==1.26.4
 Pillow==10.2.0
 Werkzeug==2.3.8
