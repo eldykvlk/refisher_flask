@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hasil Prediksi</title>
+</head>
+<body>
+    <h2>Hasil Prediksi</h2>
+    <img src="{{ url_for('static', filename='uploads/' + filename) }}" width="300"><br><br>
+    <p><strong>Prediksi:</strong> {{ label }}</p>
+    <p><strong>Kepercayaan:</strong> {{ '{:.2f}%'.format(confidence * 100) }}</p>
+    <a href="/">Coba gambar lain</a>
+</body>
+</html>
